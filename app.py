@@ -15,7 +15,7 @@ class Baseconfig(object):
     # /test.db 表示数据库文件的路径
     SQLALCHEMY_DATABASE_URI = "sqlite:///test.db"
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    SQLALCHEMY_ECHO = True
+    SQLALCHEMY_ECHO = False
     DEBUG = True
 
 
